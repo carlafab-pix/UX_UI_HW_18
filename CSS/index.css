@@ -3,7 +3,7 @@ body {
   padding: 0;
 }
 
-/* ~~ Top Navigation Bar ~~ */
+/* Top Navigation Bar */
 
 #navigation-container {
   width: 1200px;
@@ -53,6 +53,8 @@ float:left;
   float: right;
 }
 
+/* Hero Section */
+
 #hero {
   height: 600px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
@@ -74,6 +76,8 @@ float:left;
 #hero div a img{
   margin-left: 48%;
 }
+
+/* Project Section */
 
 #projects {
   padding-top: 20px;
@@ -98,6 +102,35 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
+
+/* Skills Section */
+
+.mySkills {
+  padding-top: 20px;
+  height: 850px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #2A5AD5;
+}
+
+.mySkills h1 {
+  text-align: center;
+  font-size: 48px;
+  color: white;
+}
+
+.flexContainer {
+  display: inline-flex;
+  margin: 5px;
+  width: 350px;
+  padding: 5px;
+  background-color: white;
+  height: 400px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  flex-direction: row;
+}
+
+/* Footer */
 
 footer {
   height: 70px;
